@@ -4,7 +4,7 @@ diameter = 40
 pop_diameter = 100
 
 def draw_balloon (): 
-    color("red")
+    color("blue")
     dot(diameter)
 
 def inflate_balloon():
@@ -15,7 +15,7 @@ def inflate_balloon():
     if diameter >= pop_diameter:
         clear()
         diameter = 40
-        write("POP!")
+        write("TURTLE!")
 
         
 draw_balloon()
